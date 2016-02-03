@@ -1,0 +1,22 @@
+*** Creating Trace Output File 'RationTIM.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"startup_lpc11xx.o"'
+### List of Objects: adding '"system_lpc11xx.o"'
+### List of Objects: adding '"main.o"'
+### List of Objects: adding '"timer.o"'
+### ADS-LD Command completed:
+--cpu Cortex-M0 "startup_lpc11xx.o" "system_lpc11xx.o" "main.o" "timer.o" --strict --scatter "RationTIM.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\RationTIM.map" -o "RationTIM.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: 'RationTIM.axf'
+### ADS-LD Command File: 'RationTIM.lnp'
+### Checking for dirty Components...
+### Creating CmdFile 'RationTIM.lnp', Handle=0x000002DC
+### Writing '.lnp' file
+### ADS-LD Command file 'RationTIM.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.
